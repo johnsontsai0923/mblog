@@ -13,3 +13,4 @@ def homepage(request):
         post_lists.append("<small>" + str(post.body) + "</small><br><br>")
         post_lists.append("----------------------------------------------------------------" + "<br><br>")
     return HttpResponse(post_lists)
+
